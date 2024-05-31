@@ -78,6 +78,8 @@ section {
 #welcome {
     background-color: #333;
     color: #fff;
+    width: 800px;
+    align-items: center;
 }
 
 #welcome .container {
@@ -104,7 +106,7 @@ section {
 
 .program {
     flex: 1;
-    max-width: 100%;
+    width: 100%;
     margin: 1rem;
     padding: 1rem;
     background: #333;
@@ -125,7 +127,7 @@ form {
     flex-direction: column;
     gap: 1rem;
     max-width: 500px;
-    margin: 0 auto;
+    margin
     position: unset;
 }
 
@@ -180,7 +182,7 @@ footer {
 /* Responsive Styles */
 @media (min-width: 768px) {
     .program-grid {
-        display: block;
+        display: flex;
         flex-direction: column;
         text-align: center;
         width: fit-content;
@@ -193,7 +195,6 @@ footer {
     .photos {
         column-count: 2;
         column-gap: 0;
-        zoom: 1;
     }
 }
 
@@ -202,40 +203,10 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+
+    #form{
+        align-items: center;
+        width: 100vw;
+    }
 }
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
 
