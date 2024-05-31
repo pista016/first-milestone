@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Coding Camp</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Kids Coding Camp</h1>
+            <nav>
+                <ul>
+                    <li><a href="#welcome">Welcome</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="welcome">
+        <div class="container">
+            <h2>Welcome to the Kids Coding Camp!</h2>
+            <p>Join us for a fun and educational experience where kids learn the basics of coding and computer science.
+                Our camp is designed to inspire and empower children through technology.</p>
+            <p>We offer a range of programs to suit all skill levels, ensuring every child can find something exciting
+                and engaging. Whether your child is a beginner or has some coding experience, we have something for
+                everyone!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our camp is designed to introduce children to the exciting world of coding. We focus on creating a
+                playful and interactive environment where kids can learn and grow. Our experienced instructors are
+                passionate about technology and education, ensuring that every child receives the best possible
+                experience.</p>
+            <p>At Kids Coding Camp, we believe in the power of technology to shape the future. We aim to equip children
+                with the skills they need to thrive in an increasingly digital world, fostering creativity,
+                problem-solving, and collaboration.</p>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="program-grid">
+                <div class="program">
+                    <h3>Beginner Coding</h3>
+                    <p>Perfect for kids who are new to coding. We start with the basics and build a solid foundation.
+                        Children will learn basic coding concepts through fun and interactive activities.</p>
+                </div>
+                <div class="program">
+                    <h3>Intermediate Coding</h3>
+                    <p>For kids with some coding experience, we dive deeper into programming concepts and projects. This
+                        program is designed to challenge and engage children, helping them to develop their skills
+                        further.</p>
+                </div>
+                <div class="program">
+                    <h3>Advanced Coding</h3>
+                    <p>Advanced programs for kids who want to take their coding skills to the next level with
+                        challenging projects. Children will work on real-world problems and advanced programming
+                        techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to sign up, please get in touch! We'd love to hear from you.</p>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kids Coding Camp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
