@@ -32,6 +32,9 @@
                 and engaging. Whether your child is a beginner or has some coding experience, we have something for
                 everyone!</p>
         </div>
+        <div>
+            <img src="assets/pictures/istockphoto-996990848-612x612.jpg" alt="">
+        </div>
     </section>
 
     <section id="about">
@@ -45,13 +48,16 @@
                 with the skills they need to thrive in an increasingly digital world, fostering creativity,
                 problem-solving, and collaboration.</p>
         </div>
+        <div>
+            <img src="assets/pictures/shutterstock_2036186204-3-1.jpg" alt="">
+        </div>
     </section>
 
     <section id="programs">
         <div class="container">
             <h2>Our Programs</h2>
-            <div class="program-grid">
                 <div class="program">
+                    
                     <h3>Beginner Coding</h3>
                     <p>Perfect for kids who are new to coding. We start with the basics and build a solid foundation.
                         Children will learn basic coding concepts through fun and interactive activities.</p>
@@ -77,9 +83,9 @@
             <h2>Contact Us</h2>
             <p>If you have any questions or would like to sign up, please get in touch! We'd love to hear from you.</p>
             <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea placeholder="Your Message"></textarea>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </div>
@@ -87,21 +93,33 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Kids Coding Camp. All rights reserved.</p>
+            <p>Kids Coding Camp</p>
         </div>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
 
-    <script>
-        // Smooth scroll for navigation links
-        document.querySelectorAll('nav ul li a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <script src="https://kit.fontawesome.com/cd57b337eb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
