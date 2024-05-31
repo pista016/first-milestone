@@ -22,6 +22,28 @@ CSS3
 
 ## Installation
 
-To run this project locally, follow these steps:
+1. To run this project locally, follow these steps -> Clone the repository: git clone https://github.com/pista016/first-milestone
 
-Clone the repository:
+2. Navigate to project directory:
+    cd first-milestone
+
+3. Open index.html file in your web browser:
+    open index.html
+
+## Usage
+The website consists of several sections that provide information about the Kids Coding Camp. The navigation bar at the top allows users to easily jump to different sections of the page:
+
+- Welcome: Brief introduction and welcome message.
+- About: Information about the camp and its objectives.
+- Programs: Details of the various coding programs offered.
+- Contact: Contact form for inquiries.
+
+## Customization
+- You can customize the website by modifying the HTML and CSS files:
+
+Change Background Image: Update the URL in the #welcome section of styles.css to use a different background image.
+Edit Text Content: Modify the text within index.html to fit your specific needs.
+Adjust Styles: Modify the CSS in styles.css to change colors, fonts, and layout.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
