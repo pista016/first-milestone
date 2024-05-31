@@ -1,3 +1,7 @@
+/* Dear CodeInstitute Team i know there is no excuse or a reason not to have finished the website fully, i did my best in the past few hours because of a mixup i thought that the love running was the milestone project but as you can see i have made a big mistake and i am aware of it. I hope that you can give me an opportunity to hand in my work on a re-schedueled date.
+Thank you in advance.
+PS.: I have started creating my own wbsite for pictures which is a 3 page website that (STILL NOT FINISHED) you can see on my github account. */
+
 # Kids Coding Camp Website
 Welcome to the Kids Coding Camp website repository! This project is a simple, responsive website designed to provide information about a Kids Coding Camp. The site features a fixed navigation bar, multiple content sections, and a cohesive black, green, and white theme.
 
